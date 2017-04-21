@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Command\\": "src"
+        }, 
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
